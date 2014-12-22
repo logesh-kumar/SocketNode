@@ -1,0 +1,18 @@
+{
+  "name": "sockets",
+  "version": "0.0.0",
+  "authors": [
+    "logesh-kumar <phoenix.logu@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"    
+  }
+}
