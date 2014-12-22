@@ -9,7 +9,7 @@ $('form').submit(function(){
 
 	var msg = $('#m').val();
 
-	socket.emit('chat', nickname+ ":"+ msg);
+	socket.emit('chat', nickname+ " : "+ msg);
 	$('#m').val('');
 	$('#nick').val('');
 	return false;
